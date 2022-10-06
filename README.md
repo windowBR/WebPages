@@ -1,2 +1,2 @@
-## 素我滴第一个小网页哦
-[点击就能看一眼哦](https://page-git-main-windowbr.vercel.app/)
+## 事我自己写滴第一个小网页嗷
+[点击这里就可以看一眼嗷](https://page-git-main-windowbr.vercel.app/)
