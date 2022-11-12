@@ -12,48 +12,58 @@
                 border-radius: 50%; 
                 overflow:hidden;
             }
+            .main {
+                width: 70%;
+                background-color: rgba(255, 255, 255, 0.508);
+                margin: auto;
+            }
+            .spase {
+                height: 100px;
+            }
+            .article{
+                width: 80%;
+            }
+            body {
+                background-size: 100%;
+            }
         </style>
     </head>
 
-    <body>
-        <!-- 头图 -->
-        <div>
-            <img src="https://picture-1301348863.cos.ap-nanjing.myqcloud.com/_title_base4.jpg" alt="some_text" width="100%"/>
-        </div>
-        
+    <body background = "https://picture-1301348863.cos.ap-nanjing.myqcloud.com/_title_base4.jpg";>
+
         <!-- 正文 -->
-        <div>
+        <div class="main">
+            <div class="article">
+                <div class="spase"></div>
 
-            <!-- 头像栏 -->
-            <div>
-                <span>
-                    <img class="circle" src="https://picture-1301348863.cos.ap-nanjing.myqcloud.com/Yukino_Icon.jpeg" alt="头像" width="150" />
-                </span>
-                <span>
-                    ←这事我的头像
-                </span>
+                <!-- 头像栏 -->
+                <div>
+                    <img class="circle" src="https://picture-1301348863.cos.ap-nanjing.myqcloud.com/Yukino_Icon.jpeg" alt="头像" width="150" style="margin: 0 auto;" />
+                </div>
+            
+                <p>
+                    <h1>windowbr 个人主页</h1>
+                    这是猫猫过去的路🐈🐾🐾🐾🐾🐾🐾
+                </p>
+
+                <!-- 博客链接 -->
+                <p>
+                    <h3>
+                        点击下方按钮打开博客
+                    </h3>
+                    <a href="http://blog.windowbr.top/" target="_self">
+                        <img src="/Pictures/BlogButton.png" title="博客按钮" width="100" />
+                    </a>
+                </p>
+
+                <p>
+                    这是我的初音未来杰作 <br />
+                    <img src="https://picture-1301348863.cos.ap-nanjing.myqcloud.com/miku.png" alt="初音未来" title="初音未来" width="450" />
+                </p>
+
+                <div class="spase"></div>
             </div>
-        
-            <p>
-                <h1>这第一个标题总得写点字吧</h1>
-                这第一个段落也该写点字吧，上面就放张图顺便测试下图床了 <br />
-                这是猫猫过去的路🐈🐾🐾🐾🐾🐾🐾
-            </p>
-
-            <!-- 博客链接 -->
-            <p>
-                <h3>
-                    点击下方按钮打开博客
-                </h3>
-                <a href="http://blog.windowbr.top/" target="_self">
-                    <img src="/Pictures/BlogButton.png" title="博客按钮" width="200" />
-                </a>
-            </p>
-
-            <p>
-                这是我的初音未来杰作 <br />
-                <img src="https://picture-1301348863.cos.ap-nanjing.myqcloud.com/miku.png" alt="初音未来" title="初音未来" width="450" />
-            </p>
+            
         </div>
         
 
