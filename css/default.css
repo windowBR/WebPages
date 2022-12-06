@@ -2,30 +2,37 @@
     font-family: SmileySans;
     src: url('../fonts/SmileySans-Oblique.ttf.woff2');
 }
+
 .deyi {
     font-family: 'SmileySans';
 }
-.circle{
-    width:120px; 
-    height:120px; 
-    border-radius: 50%; 
-    overflow:hidden;
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
 }
+
 .main {
     width: 70%;
     background-color: rgba(255, 255, 255, 0.508);
     margin: auto;
 }
+
 .spase {
     height: 100px;
 }
-.article{
+
+.article {
     width: 80%;
     margin: auto;
 }
+
 .center {
     text-align: center;
 }
+
 body {
     background-size: 100%;
 }
