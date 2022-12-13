@@ -3,6 +3,13 @@
     src: url('../fonts/SmileySans-Oblique.ttf.woff2');
 }
 
+body {
+    background-image: url("https://picture-1301348863.cos.ap-nanjing.myqcloud.com/_title_base4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 .deyi {
     font-family: 'SmileySans';
 }
@@ -16,11 +23,12 @@
 
 .main {
     width: 70%;
-    background-color: rgba(255, 255, 255, 0.508);
+    background-color: rgba(240, 240, 240, 0.5);
     margin: auto;
+    border-radius: 30px;
 }
 
-.spase {
+.space {
     height: 100px;
 }
 
@@ -33,6 +41,19 @@
     text-align: center;
 }
 
-body {
-    background-size: 100%;
+.blog>a {
+    display: block;
+    color: black;
+    background-color: rgba(102, 204, 255, 0.693);
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 23px;
+}
+.blog>a:hover{
+    color: white;
+    background-color: #ff006b;
 }
